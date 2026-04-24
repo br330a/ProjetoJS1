@@ -35,3 +35,17 @@ const desconto = 0.15;
 const precoFinal = precoProduto * (1 -desconto);
 console.log(precoFinal)
 console.log(`R$ ${precoFinal.toFixed(2)}`);   //crase serve pra formatar   e toFixed para as casas decimais (no caso 2)
+
+
+//Metodos de Array
+
+const produtos = [
+    {nome: "Teclado Mecanico", preco:200, promocao:true},
+    {nome: "Mouse Gamer", preco:100, promocao:false},
+    {nome: "Monitor Gamer", preco:800, promocao:true},
+    {nome: "MousePad", preco:50, promocao:false}
+]
+
+console.log(produtos)
+
+
